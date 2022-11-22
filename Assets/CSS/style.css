@@ -1,5 +1,6 @@
 *{
     font-size: 18px;
+    font-family: barlow;
 }
 
 body{
@@ -23,7 +24,7 @@ body{
 
 .navbar ul{
     display: flex;
-    margin-left: 250px;
+    margin-left: 400px;
     list-style: none;
 }
 
@@ -32,9 +33,14 @@ ul li a{
     text-decoration: none;
     color: hsl(230, 11%, 40%);
 }
-
+.alert p{
+    color:  hsl(231, 7%, 65%);
+}
+.alert a{
+    margin-top: 17px;
+}
 .button1{
-    margin-left: 300px;
+    margin-left: 30px;
     border: none;
     background-color: hsl(255deg 43% 28%);
     
